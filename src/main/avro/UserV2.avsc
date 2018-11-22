@@ -1,0 +1,23 @@
+{
+    "namespace": "cx.blacksun.dto",
+    "type": "record",
+    "name": "UserV2",
+    "fields": [{
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "favorite_number",
+            "type": ["int", "null"]
+        },
+        {
+            "name": "favorite_color",
+            "type": ["string", "null"]
+        },
+        {
+            "name": "age",
+            "type": ["null", "int"],
+            "default": null
+        }
+    ]
+}
